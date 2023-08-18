@@ -21,7 +21,6 @@ class GroupController extends Controller
         ]);
     }
     public function addGroup(){
-
         return view('groups.create');
 
     }
